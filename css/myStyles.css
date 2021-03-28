@@ -1,0 +1,487 @@
+*{
+	margin:0;
+	padding-top:0;
+	scroll-behavior:smooth;
+}
+
+#topicLogoAlign{
+	display: grid;
+	grid-template-columns: 2fr 9fr 5fr;
+	box-sizing: border-box;
+}
+
+div{
+	display: block;
+}
+
+.linkUnderlineRemove{
+	text-decoration: none;
+}
+
+body{
+	margin: 0;
+	padding: 0px;
+	background-image:url("../images/new.jpg");
+
+}
+.head1{
+	font-size:20px;
+	color:white;
+	padding: 15px;
+	text-decoration:none;
+}
+.head1:hover{
+	color:red;
+}
+
+#searchBar{
+	border: 1px solid #cccccc;
+	border: 1px solid #cccccc;
+	margin:15px;
+	outline:0;
+	height:30px;
+	width: 350px;
+	border-radius: 6px;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+.searchButton{
+	background-color: #3335FF;
+	border-radius: 6px;
+	border: none;
+	color: white;
+	margin-right:15px;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+}
+.searchButton:hover {
+  background-color: #3366FF;
+}
+
+.divImg{
+	background-image:url("../images/home-1.jpg");
+	padding-top:100px;
+	padding-bottom:250px;
+	padding-left:40px;
+
+	object-fit:fill;
+}
+
+.whoWeAre{
+	font-family: tahoma,Charcoal,sans-sans-serif;
+	font-size: 40px;
+}
+
+.homeText{
+	font-family: tahoma,Charcoal,sans-sans-serif;
+	font-size: 20px;
+}
+
+#click{
+	padding-left: 50px;
+	text-decoration:none;
+}
+
+.titleService{
+	font-family: tahoma,Charcoal,sans-sans-serif;
+	background-color: darkcyan;
+	color: white;
+	padding:20px;
+}
+
+.gridLayoutPackagesDisplay {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 15px;
+}
+
+.gridNonAC{
+	color:white;
+	text-decoration:none;
+	padding-top: 20px;
+	background-color: darkcyan;
+	width:auto;
+	margin-right: 10px;
+	border-radius: 50px;
+	opacity:0.9;
+}
+
+.gridAC{
+	color:white;
+	text-decoration:none;
+	padding-top: 20px;
+	background-color: darkcyan;
+	width:auto;
+	margin-right: 10px;
+	border-radius: 50px;
+	opacity:0.9;
+}
+
+.gridWedding{
+	color:white;
+	text-decoration:none;
+	padding-top: 20px;
+	background-color: darkcyan;
+	width:auto;
+	border-radius: 50px;
+	opacity:0.9;
+}
+
+.imgIcons:hover{
+	opacity:0.5;
+	border:
+}
+
+.gridNonAC:hover{
+	opacity:1;
+	border-color:cyan;
+	border-style:solid;
+	border-width:5px;
+	height:auto;
+	width:500px;
+	border-radius:50px;
+	margin-right:0px;
+}
+
+.gridAC:hover{
+	opacity:1;
+	border-color:cyan;
+	border-style:solid;
+	border-width:5px;
+	height:auto;
+	width:500px;
+	border-radius:50px;
+	margin-right:0px;
+}
+
+.gridWedding:hover{
+	opacity:1;
+	border-color:cyan;
+	border-style:solid;
+	border-width:5px;
+	height:auto;
+	width:500px;
+	border-radius:50px;
+	margin-right:0px;
+}
+
+.divImg2{
+	background-image:url("../images/car5.jpg");
+	background-size: auto;
+	padding-top:100px;
+	padding-bottom:250px;
+	padding-left:40px;
+
+	object-fit:fill;
+}
+
+.divImg2 {
+	display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #2196F3;
+  padding-top: : 300px;
+	padding-bottom: 200px;
+	padding-right: 20px;
+}
+
+.signupDriverRide{
+	background-color: rgba(255,249,234,0.5);
+	margin-right: 10px;
+	padding:20px;
+	border-color:darkcyan;
+	border-radius:50px;
+	border-style:solid;
+	border-width:5px;
+}
+
+.signupDriverDiv{
+	background-color: rgba(255,249,234,0.5);
+	margin-left: 10px;
+	padding:20px;
+	border-color:darkcyan;
+	border-radius:50px;
+	border-style:solid;
+	border-width:5px;
+}
+
+div{
+	flex-wrap: wrap;
+	object-fit:fill;
+	margin:0;
+}
+
+#header{
+
+	/*background-color:darkcyan;*/
+	flex-wrap: wrap;
+	padding-top: 10px;
+
+
+}
+
+#topic{
+	color: black;
+	margin-top: 40px;
+
+}
+
+
+.buttonStyle{
+	background-color: #3333FF;
+	border: none;
+	border-radius: 6px;
+	color: white;
+	margin-left:250px;
+	padding: 20px 100px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+
+}
+.buttonStyle:hover {
+  background-color: #3366FF;
+}
+/*navigation bar styles */
+ul.menu{
+	list-style-type: none;
+	margin-top: 20px;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0px;
+	overflow: hidden;
+	background-color:darkcyan;
+}
+
+li.menu{
+	float: left;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding:20px 16px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: lightskyblue;
+}
+/*navigation bar styles end*/
+
+/*Social media icons*/
+#follow{
+	text-decoration:bold;
+
+}
+
+.social{
+	padding: 15px;
+}
+
+.social:hover{
+	border-color:#3366FF;
+	border-style:solid;
+	border-width:10px;
+	height:50px
+	width:auto;
+	border-radius:10px;
+}
+/*footer grid*/
+.gridFooter{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+
+	grid-template-areas:
+		"g1 g2 g3";
+}
+
+.g1{
+	grid-area:g1;
+	color:white;
+}
+
+.g2{
+	grid-area:g2;
+	color:white;
+}
+
+.g3{
+	grid-area:g3;
+	color:white;
+}
+footer{
+	padding:20px;
+	background-color:darkcyan;
+
+}
+
+/*packages page */
+
+.buttonStylePackage{
+	background-color: #3333FF;
+	border: none;
+	padding: 20px 100px;
+	border-radius: 6px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.buttonStylePackage:hover {
+  background-color: #3366FF;
+}
+
+#pkgPara{
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+}
+
+.packageContent{
+	background-image:url("../images/1.jpg");
+	background-position:justify;
+	flex-wrap: wrap;
+	padding:15px;
+}
+
+.divImg3{
+	background-image:url("../images/home-1.jpg");
+	background-size: auto;
+	padding-top:100px;
+	padding-bottom:250px;
+	padding-left:40px;
+	opacity:1;
+	object-fit:fill;
+}
+
+.diveForHowToOrder{
+	display: grid;
+  grid-template-columns:1fr 2fr;
+  padding: 15px;
+}
+
+
+#pkgName{
+	color: white;
+	font-size: 50px;
+}
+
+.pkgBrowseVehicle{
+	width:100%;
+	background-color: darkcyan;
+	border: none;
+	border-radius: 0;
+	color: white;
+	margin-top:15px;
+	padding: 20px ;
+	text-align: center;
+	text-decoration: none;
+	font-size:20px;
+	border-radius:100px;
+	margin-right: 10px;
+}
+
+.pkgBrowseVehicle:hover{
+	background-color: #3366FF;
+}
+
+
+/*addDriverByAdmin.html page css code*/
+.addDriverByAdminFormGrid{
+	display:grid;
+	background-image:url("../images/home-1.jpg");
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: 1fr;
+	padding:20px;
+}
+
+.formStyleTextboxes{
+	border: 1px solid #cccccc;
+	border: 1px solid #cccccc;
+	margin:15px;
+	outline:0;
+	height:30px;
+	width: 350px;
+	border-radius: 6px;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+.pswdInvalid{
+	color: red;
+}
+
+.pswdInvalid::before{
+	position: relative;
+	content: "\2716";
+}
+
+.pswdValid{
+	color: green;
+}
+.pswdValid::before{
+	position : relative;
+	content: "\2714";
+}
+
+#formStyles{
+	background-color: white;
+	padding: 15px;
+}
+
+/*Orders html page*/
+.ordersGrid{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	padding:30px;
+	padding-left: 40px;
+}
+
+.orderBackground{
+	background-image:url("../images/home-1.jpg");
+	padding-bottom:20px;
+	padding-bottom: 50px;
+}
+
+/*Diver admin datbase*/
+table, th, td {
+   border: 2px solid black;
+   border-collapse: collapse;
+	 font-family: tahoma,Charcoal,sans-sans-serif;
+ 	 font-size: 20px;
+}
+
+table{
+	width:90%;
+}
+
+tr:nth-child(even){
+	background-color: lightblue;
+}
+
+tr:nth-child(odd){
+	background-color: lightgrey;
+}
+
+/*order_to_database.php*/
+
+.orderConfirmDesign{
+	color:black;
+	background-image:url("../images/home-1.jpg");
+	padding-top: 300px;
+	padding-bottom: 300px;
+}
+
+.textboxDec{
+	width:100;
+
+}

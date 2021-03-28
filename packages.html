@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head><title>Karen Car Rental Service</title>
+<script src="js/myJavascript.js"></script>
+<link rel="stylesheet" type="text/css" href="css/myStyles.css">
+</head>
+<body>
+
+<div id="header">
+<div id="topicLogoAlign">
+	<div>
+	<img src="images/yak1.png" width="200px">
+</div>
+<div>
+	<h1 id="topic">KAREN CAR RENTAL SERVICE</h1>
+</div>
+<div>
+	<p align="right">
+		<a class="head1" href="login.html">Sign in</a>
+	 |
+		<a class="head1" href="#">Sign up</a><br>
+		<input type="text" id="searchBar" maxlength="5"><br>
+		<input type="button" value="search" class="searchButton" id="topUp">
+</p>
+</div>
+</div>
+
+<div>
+<ul class="menu">
+	<li class="menu"><a href="home.html">Home</a></li>
+	<li class="menu"><a href="branches.html">Branches</a></li>
+	<li class="menu"><a href="packages.html">Packages</a></li>
+	<li class="menu"><a href="help.html">Help</a></li>
+	<li class="menu"><a href="ContactUs.html">Contact Us</a></li>
+	<li class="menu"><a href="aboutUs.html">About Us</a></li>
+</ul>
+</div>
+</div>
+<center><h3 id="pkgNameChanger" class="whoWeAre">...Our Packages...</h3></center>
+<div class="gridLayoutPackagesDisplay">
+	<a href="nonAcVehicles.html" class="linkUnderlineRemove">
+  <div class="gridNonAC" onmouseover="mouseOver()" onmouseout="mouseOut()" onblur="notdisplayHireNow()">
+			<h2><center>Non-A/C</center></h2>
+			<center><img src="images/nonAC1.jpg" width="500px" height="auto"><br><br>
+				<p>Comfortable seats<br>Available vehicals - Cars/vans<br>Over 200 vehicles at your choice<br>Over 50 experienced Drivers<br>
+					Reasonable and affordable charges<br><br></p>
+
+				<h3 class="whoWeAre" id="hireNow"><h3>
+			</center>
+			<br><br><br>
+	</div>
+	</a>
+	<a href="acVehicles.html" class="linkUnderlineRemove">
+  <div class="gridAC" onmouseover="mouseOver1()" onmouseout="mouseOut1()">
+			<h2><center>A/C</center></h2>
+			<center><img src="images/ac1.jpg" width="500px" height="auto"><br><br>
+				<p>Comfortable seats<br>Available vehicals - Cars/vans<br>Over 150 vehicles at your choice<br>Over 50 experienced Drivers<br>
+					Reasonable and affordable charges<br><br></p>
+				<h3 class="whoWeAre" id="hireNow1"><h3>
+			</center>
+			<br><br><br>
+	</div>
+	</a>
+	<a href="weddingCars.html" class="linkUnderlineRemove">
+  <div class="gridWedding" onmouseover="mouseOver2()" onmouseout="mouseOut2()">
+			<h2><center>Wedding Cars</center></h2>
+			<center><img src="images/wed2.jpg" width="480px" height="242px"><br><br>
+				<p>Comfortable seats<br>Available vehicals - Cars/vans<br>Over 100 vehicles at your choice<br>Over 50 experienced Drivers<br>
+					Reasonable and affordable charges<br><br></p>
+				<h3 class="whoWeAre" id="hireNow2"><h3>
+			</center>
+			<br><br><br>
+	</div>
+</a>
+</div>
+<div  class="titleService">
+		<h2><center>....How to ORDER?....</center></h2>
+</div>
+<div class="divImg3">
+	<div class="diveForHowToOrder">
+		<div>
+				<input type="button" name="step1" value="STEP 1" id="step1" class="pkgBrowseVehicle" onclick="loadSteps('step1')"><br><br><br><br><br>
+				<input type="button" name="step1" value="STEP 2" id="step2" class="pkgBrowseVehicle" onclick="loadSteps('step2')"><br><br><br><br><br>
+				<input type="button" name="step1" value="STEP 3" id="step3" class="pkgBrowseVehicle" onclick="loadSteps('step3')"><br><br><br><br><br>
+		</div>
+		<div class="signupDriverRide">
+			<center>
+				<h3 class="whoWeAre" id="stepHeading">STEP 1</h3><br>
+				<img src="images/70140531_custom.png" width="300px" height="200px" id="stepImage" style="border-radius:50px;"><br>
+				<p class="homeText" id="stepDetails">First Register for a account as a customer and login to the user profile. As in our website only registered customers are privilaged to rebt vehicles</p>
+			</center>
+		</div>
+	</div>
+
+
+
+</div>
+
+
+<hr>
+<footer>
+<div class="gridFooter">
+  <div class="g1">
+	<h2>Copyrights@2020</h2><br>
+
+	<input type="button" value="TOP" onclick="backToTopFunction()" id="TopUp" class="searchButton">
+
+  </div>
+  <div class="g2">
+	<center><h2>Download us at</h2>
+	<br>
+	<a href="https://play.google.com/store/movies"><img src="images/playstore.png" id="playstoreIcon" class="imgIcons" height="100px" width="auto"></a>
+	<a href="https://www.apple.com/ios/app-store/"><img src="images/appstore.png" id="appstoreIcon" class="imgIcons" height="84px" width="auto"></a><br>
+	<a href="ContactUs.html" class="head1">Contact us</a>  |  <a href="aboutUs.html" class="head1">About us</a><br>
+
+	</center>
+  </div>
+  <div class="g3">
+	<div align="right" id="follow"><h2>Follow us:</h2><br><br>
+		<a href="https://www.facebook.com/"><img src="images/facebook.png" class="social" id="facebookIcon" height="50px" width="auto"></a>
+		<a href="https://www.instagram.com/"><img src="images/Instagram.png" class="social" height="50px" width="auto"></a>
+		<a href="https://twitter.com/explore"><img src="images/Twitter.png" class="social" height="50px" width="auto"></a>
+	</div>
+  </div>
+</div>
+
+</footer>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Karen Car Rental Service</title>
+
+    <link rel="stylesheet" type="text/css" href="css/myStyles.css">
+  </head>
+  <body>
+    <div id="header">
+    <div id="topicLogoAlign">
+    	<div>
+    	<img src="images/yak1.png" width="200px">
+    </div>
+    <div>
+    	<h1 id="topic">KAREN CAR RENTAL SERVICE</h1>
+    </div>
+    <div>
+    	<p align="right">
+    		<a class="head1" href="login.html">Sign in</a>
+    	 |
+    		<a class="head1" href="#">Sign up</a><br>
+    		<input type="text" id="searchBar" maxlength="5"><br>
+    		<input type="button" value="search" class="searchButton" id="topUp">
+    </p>
+    </div>
+    </div>
+
+    <div>
+    <ul class="menu">
+    	<li class="menu"><a href="home.html">Home</a></li>
+    	<li class="menu"><a href="branches.html">Branches</a></li>
+    	<li class="menu"><a href="packages.html">Packages</a></li>
+    	<li class="menu"><a href="#">Help</a></li>
+    	<li class="menu"><a href="ContactUs.html">Contact Us</a></li>
+    	<li class="menu"><a href="aboutUs.html">About Us</a></li>
+    </ul>
+    </div>
+    </div>
+
+    <div class="addDriverByAdminFormGrid">
+      <div class="addDriverByAdminFormGrid_1">
+      </div>
+      <div class="addDriverByAdminFormGrid_2">
+        <h2><center>Admin adding driver details</center></h2>
+    <form method="post" action="add_driver_by_admin.php">
+    <!--  <label for="drivID">Driver ID:</label><br>
+          <input type="text" id="drivID" name="drivID" required><br><br>
+-->
+      <label for="fname" class="homeText">First name:</label>
+          <input type="text" id="fname" name="fname" class="formStyleTextboxes" required><br>
+          <label for="lname" class="homeText">Last name:</label>
+          <input type="text" id="lname" name="lname" class="formStyleTextboxes" required><br>
+
+          <label for="gender" class="homeText">Gender</label><br>
+          <input type="radio" id="male" name="gender" value="M">
+          <label for="male" class="homeText">Male  </label>
+          <input type="radio" id="female" name="gender" value="F">
+          <label for="female" class="homeText">Female  </label>
+        <br>
+
+          <label for="teleNo" class="homeText">Telephone No:</label>
+          <input type="text" id="teleNo" name="teleNo" pattern="[0-9]{10}" class="formStyleTextboxes" required><br>
+
+          <label for="email" class="homeText">E-mail:</label>
+          <input type="email" id="emailAddress" name="emailAddress" class="formStyleTextboxes" required><br>
+          <p id="demo"></p>
+
+          <label for="address" class="homeText">Address</label><br>
+          <textarea id="address" rows="4" cols="50" name="address" required>
+
+          </textarea><br><br>
+
+          <label for="licence" class="homeText">Driving licence No:</label>
+          <input type="text" id="licence" name="licence" class="formStyleTextboxes" required><br>
+
+          <label for="dob" class="homeText">Date of birth:</label>
+          <input type="date" name="dob" class="formStyleTextboxes" required>
+            <br>
+          <label for="pswd" class="homeText">Password :</label>
+          <input type="password" id="pswd" name="pswd" class="formStyleTextboxes" required>
+            <br>
+            <div id="pswdDetails" class="homeText">
+                  <p id="pswdLetters" class="pswdInvalid">lower case letters Should be included</p>
+                  <p id="pswdCapital" class="pswdInvalid">At least a single capital letter should be included</p>
+                  <p id="pswdNumbers" class="pswdInvalid">At least a single numerical value should be included</p>
+                  <p id="pswdCharLimit" class="pswdInvalid">Minimum 5 characters</p>
+                  <p id="pswdStrength">Password Strength : </p>
+            </div><br>
+
+
+          <label for="repswd" class="homeText">Re-enter Password :</label>
+          <input type="password" id="repswd" name="repswd" class="formStyleTextboxes" required>
+          <br>
+          <input type="submit" onclick="checkPassword(), myFunction()" value="Add Driver" class="searchButton">
+          <input type="reset" value="Reset" class="searchButton">
+          <a href="admin_driver_database.php"><input type="button" value="View Drivers Databse" class="searchButton"></a>
+    </form>
+    </div>
+    <div class="addDriverByAdminFormGrid_3">
+      <p align="right"><b>LOGGED IN AS ADMIN</b></p>
+    </div>
+  </div>
+    <footer>
+    <div class="gridFooter">
+      <div class="g1">
+    	<h2>Copyrights@2020</h2><br>
+    	<input type="button" value="TOP" onclick="backToTopFunction()" id="TopUp" class="searchButton" >
+
+      </div>
+      <div class="g2">
+    	<center><h2>Download us at</h2>
+    	<br>
+    	<a href="https://play.google.com/store/movies"><img src="images/playstore.png" id="playstoreIcon" class="imgIcons" height="100px" width="auto"></a></br>
+    	<a href="https://www.apple.com/ios/app-store/"><img src="images/appstore.png" id="appstoreIcon" class="imgIcons" height="84px" width="auto"></a><br>
+    	<a href="ContactUs.html" class="head1">Contact us</a>  |  <a href="aboutUs.html" class="head1">About us</a><br>
+
+    	</center>
+      </div>
+      <div class="g3">
+    	<div align="right" id="follow"><h2>Follow us:</h2><br><br>
+    		<a href="https://www.facebook.com/"><img src="images/facebook.png" class="social" id="facebookIcon" height="50px" width="auto"></a>
+    		<a href="https://www.instagram.com/"><img src="images/Instagram.png" class="social" height="50px" width="auto"></a>
+    		<a href="https://twitter.com/explore"><img src="images/Twitter.png" class="social" height="50px" width="auto"></a>
+    	</div>
+      </div>
+    </div>
+
+    </footer>
+    <script src="js/myJavascript.js"></script>
+  </body>
+</html>
